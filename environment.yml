@@ -1,0 +1,9 @@
+name: pygame_llm
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - openai==1.33.0
+      - pygame==2.5.2
